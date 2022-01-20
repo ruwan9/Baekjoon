@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('inputs/1302.txt')
+sys.stdin = open('../inputs/1302.txt')
 
 d = dict()
 for _ in range(int(input())):
