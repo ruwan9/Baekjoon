@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('inputs/11724.txt')
+sys.stdin = open('../inputs/11724.txt')
 # sys.setrecursionlimit(100000)
 
 
