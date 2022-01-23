@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../inputs/1388.txt')
+sys.stdin = open('./input.txt')
 
 N, M = map(int, input().split())
 board = []
