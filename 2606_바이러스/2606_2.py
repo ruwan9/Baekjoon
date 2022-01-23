@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../inputs/2606.txt')
+sys.stdin = open('./input.txt')
 
 
 def dfs(v):
