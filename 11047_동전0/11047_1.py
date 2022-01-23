@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../inputs/11047.txt')
+sys.stdin = open('./input.txt')
 
 N, K = map(int, input().split())
 coins = list(int(input()) for _ in range(N))
