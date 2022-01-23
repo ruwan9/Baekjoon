@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../inputs/2309.txt')
+sys.stdin = open('./input.txt')
 from itertools import combinations
 
 heights = list(int(input()) for _ in range(9))

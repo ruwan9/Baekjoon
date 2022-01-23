@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../inputs/2309.txt')
+sys.stdin = open('./input.txt')
 
 heights = sorted(list(int(input()) for _ in range(9)))
 tot = sum(heights)
