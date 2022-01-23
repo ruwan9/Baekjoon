@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../inputs/1302.txt')
+sys.stdin = open('./input.txt')
 
 N = int(input())
 books = list(input() for _ in range(N))
