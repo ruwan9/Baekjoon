@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../inputs/2164.txt')
+sys.stdin = open('./input.txt')
 from collections import deque
 
 N = int(input())
