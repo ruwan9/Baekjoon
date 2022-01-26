@@ -1,12 +1,13 @@
 import sys
 sys.stdin = open('./input.txt')
+input = sys.stdin.readline
 
 T = int(input())
 for _ in range(T):
     N = int(input())
     people = [list(map(int, input().split())) for _ in range(N)]
     people.sort(key=lambda x: x[0])
-    print(people)
+    # print(people)
 
     cnt = 1
     tmp = people[0][1]
