@@ -14,7 +14,7 @@ def flip(r, c):
 def check():
     for i in range(N):
         for j in range(M):
-            if arrA[i][j] != B[i][j]:
+            if arrA[i][j] != arrB[i][j]:
                 return False
     return True
 
