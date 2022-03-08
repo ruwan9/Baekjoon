@@ -2,8 +2,8 @@ import sys
 sys.stdin = open('input.txt')
 from collections import deque
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
+dx = [-1, 1, 0, 0, -1, 1, -1, 1]
+dy = [0, 0, -1, 1, -1, 1, 1, -1]
 
 
 def bfs(x, y):
@@ -17,7 +17,7 @@ def bfs(x, y):
     while queue:
         x, y = queue.popleft()
 
-        for i in range(4):
+        for i in range(8):
             nx = x + dx[i]
             ny = y + dy[i]
 
