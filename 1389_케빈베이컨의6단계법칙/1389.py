@@ -35,5 +35,8 @@ for i in range(1, N+1):
     bfs(i)
     # 유저 별 단계의 합 더해주기
     res.append(sum(visited) - visited[i])
+    print(res)
 
 print(res.index(min(res)))
+
+print(int(-30/4))
